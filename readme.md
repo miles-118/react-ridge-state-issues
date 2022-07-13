@@ -14,6 +14,8 @@ ReferenceError: exports is not defined in ES module scope This file is being tre
 
 - Adding `["@babel/plugin-transform-modules-commonjs"],` to `apps/next/.babelrc.json` changes the error to `ESM packages (react-ridge-state) need to be imported. Use 'import' to reference the package instead. https://nextjs.org/docs/messages/import-esm-externals`
 
+This thread seems to be related to this error: [https://github.com/vercel/next.js/discussions/35217#discussioncomment-2343861](https://github.com/vercel/next.js/discussions/35217#discussioncomment-2343861)
+
 ```
 {
   "presets": [
